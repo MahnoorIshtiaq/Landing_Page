@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles.css" />
+  <title>donuts Landing page</title>
+</head>
+<body>
+    <div class="ball"></div>
+    <section>
+        <header>
+            <a href="#"><img src="logo1.png" alt=""></a>
+            <ul>
+                <li class="hideonMobile"><a href="#" class="active">Home</a></li>
+                <li class="hideonMobile"><a href="#">Menu</a></li>
+                <li class="hideonMobile"><a href="#">Contact</a></li>
+                <li class="hideonMobile"><a href="#">FAQ</a></li>
+                <li class="menu-btn"  onclick="Showsidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+            <ul class="side-bar">
+                <li onclick="hidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                </a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Menut">Menu</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#FAQ">FAQ</a></li>
+              </ul>
+        </header>
+        <div class="container">
+            <div class="content">
+                <h1>Shop <span>Doughnuts</span></h1>
+                <h2>Order Donuts For your Party</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="products">
+                <img src="Choco_sprinkles.png" class="donut">
+            </div>
+            <ul class="click">
+                <li><img src="Choco_sprinkles.png" onclick="imgSlider('Choco_sprinkles.png');changeColor('#e6ad76')"></li>
+                <li><img src="Yellow_glazed.png" onclick="imgSlider('Yellow_glazed.png');changeColor('#ffff47')"></li>
+                <li><img src="chocolate.png"  onclick="imgSlider('chocolate.png');changeColor('#63392e')"></li>
+                <li><img src="Strawberry.png" onclick="imgSlider('Strawberry.png');changeColor('#ee8d9a')"></li>
+            </ul>
+        </div>
+        <script src="Script.js"></script>
+        
+    </section>
+</body>
+</html>
