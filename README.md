@@ -5,7 +5,7 @@ A vibrant and responsive landing page designed to promote a donut shop, complete
 
 ## 🖼 Preview
 
-!(clicks.png) 
+![Donut](clicks.png) 
 
 ## 🚀 Features
 
@@ -68,7 +68,7 @@ You can tweak:
 
 ## 📸 Screenshots
 
-!(donut.png) 
+![Donut](Donut.png) 
 
 ## 📄 License
 
