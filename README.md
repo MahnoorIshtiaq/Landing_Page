@@ -1,4 +1,3 @@
-```markdown
 # 🍩 Donuts Landing Page
 
 A vibrant and responsive landing page designed to promote a donut shop, complete with product visuals, animations, and an engaging UI.
